@@ -1,0 +1,48 @@
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="assets/TictactoeStyle.css">
+    <script src="script/GameLogic.js"></script>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+
+    <title>
+        TicTacToe x/0
+    </title>
+
+</head>
+
+<body>
+
+    <div id="mainContainer">
+        <h1> Welcome to the World of X/0</h1>
+        <p id="role"> Player "X" , it's your Turn ... </p>
+        <br />
+        <div class="parent">
+            <div class="div1"><input type="text" class="boxes" id="box1" onmouseover="hoverStyle" onclick="placeMarker(this.id,0)" readonly>
+            </div>
+            <div class="div2"><input type="text" class="boxes" id="box2" onclick="placeMarker(this.id,1)" readonly>
+            </div>
+            <div class="div3"><input type="text" class="boxes" id="box3" onclick="placeMarker(this.id,2)" readonly>
+            </div>
+            <div class="div4"><input type="text" class="boxes" id="box4" onclick="placeMarker(this.id,3)" readonly>
+            </div>
+            <div class="div5"><input type="text" class="boxes" id="box5" onclick="placeMarker(this.id,4)" readonly>
+            </div>
+            <div class="div6"><input type="text" class="boxes" id="box6" onclick="placeMarker(this.id,5)" readonly>
+            </div>
+            <div class="div7"><input type="text" class="boxes" id="box7" onclick="placeMarker(this.id,6)" readonly>
+            </div>
+            <div class="div8"><input type="text" class="boxes" id="box8" onclick="placeMarker(this.id,7)" readonly>
+            </div>
+            <div class="div9"><input type="text" class="boxes" id="box9" onclick="placeMarker(this.id,8)" readonly>
+            </div>
+        </div>
+
+        <br />
+
+        <button id="btn" onclick="restart()"> Reload </button>
+    </div>
+
+</body>
+
+</html>
