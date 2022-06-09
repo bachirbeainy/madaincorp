@@ -2,7 +2,7 @@ var playerturn = 'X';
 let board = ['', '', '', '', '', '', '', '', ''];
 let isGameActive = true;
 let playerWon = false;
-
+//There are 2 bugs that need to be fixed 
 function placeMarker(boxnumber, index) {
     if (!isGameActive)
         alert("Game Over ...Start a new Game");
